@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'AirPollutionAnalysis-TableauAngular';
+
+  url = "https://public.tableau.com/views/DelhiOdd-EvenScheme2016effectsonAirPollution/AveragePollutantLevelAnalysis?:language=en&:display_count=y&:origin=viz_share_link"
+
+
+  constructor() { }
+
 }
